@@ -1,0 +1,25 @@
+
+<libros>
+    <libro>
+        <titulo>Libro 1</titulo>
+        <autor>Autor 1</autor>
+        <año>Año 1</año>
+        <genero>Genero 1</genero>
+    </libro>
+    
+    <libro>
+        <titulo>Libro 2</titulo>
+        <autor>Autor 2</autor>
+        <año>Año 2</año>
+        <genero>Genero 2</genero>
+    </libro>
+    
+   <libro>
+        <titulo>Libro 3</titulo>
+        <autor>Autor 3</autor>
+        <año>Año 3</año>
+        <genero>Genero 3</genero>
+    </libro>
+</libros>
+
+<!--Prueba de etiqueta-->
