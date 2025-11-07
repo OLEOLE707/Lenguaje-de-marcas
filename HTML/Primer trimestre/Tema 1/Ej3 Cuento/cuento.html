@@ -27,11 +27,7 @@
                 color: #5f0404;
                 font-size: 70px;
             }
-            
-            a{
-                color: rgb(50, 40, 146);
-                text-shadow: 3px 3px 10px rgb(129, 129, 129)
-            }
+
             .texto{
                 font-family:Tangerine; 
                 border-radius: 10px;
@@ -46,6 +42,15 @@
                 width: 600px;
                 border: 5px solid #922e2e;
             }
+            .texto h1 {
+                text-align: center;
+                color:rgb(214, 33, 33);
+                margin: 20px;
+                font-size: 350%;
+                background-color:cornsilk;
+            }
+
+
 
 
 
@@ -71,7 +76,20 @@
             }
             #portada a{
                 color: rgb(50, 40, 146);
-                text-shadow: 3px 3px 10px rgb(129, 129, 129);
+                text-shadow: 3px 3px 10px rgb(129, 129, 129)
+            }
+
+            #portada .lista a {
+                text-align: center;
+                color: #bb222f;
+                margin: 20px;
+                border-radius: 25px;
+                font-size: 90%;
+                background-color:  #fff;
+                border: 10px solid #fff;
+
+                text-shadow: none;
+                text-decoration: none;
             }
 
 
@@ -133,10 +151,19 @@
         <div id="portada">
             <h1>Caperucita Roja</h1>
             <p>Historias clásicas para dormir</p>
-            <a href="#introduccion">COMENZAR HISTORIA</a>
+            <a href="#introduccion">COMENZAR HISTORIA</a><br>
+            
+            <div class="lista">
+                <a href="#introduccion">CAPÍTULO 1</a><br><br>
+                <a href="#nudo">CAPÍTULO 2</a><br><br>
+                <a href="#desenlace">CAPÍTULO 3</a><br>
+            </div>
+            
         </div>
 
         <div id="introduccion">
+            <div class="texto"><h1>Cápitulo 1</h1></div>
+
             <div class="imagenizq">
                 <img src="caperucita-roja-campo.gif">
             </div>
@@ -153,6 +180,7 @@
         </div>
 
         <div id="nudo">
+            <div class="texto"><h1>Cápitulo 2</h1></div>
             <div class="imagenizq   ">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYGsP5suJgZMqU-eKGGI4ac6HvHKouV9udGQ&s" alt="caperucita">
             </div>
@@ -221,6 +249,7 @@
         </div>
 
         <div id="desenlace">
+            <div class="texto"><h1>Cápitulo 3</h1></div>
             <div class="imagenizq   ">
                 <img src="https://www.cuentosyrecetas.com/wp-content/uploads/2018/01/caperucita-roja-cuento.jpg" alt="caperucita">
             </div>
