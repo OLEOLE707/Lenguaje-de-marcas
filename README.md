@@ -1,1 +1,1 @@
-En este repositorio se encuentran mis tareas de **_Lenguaje de Marcas_**, estará estructurado por tema y lenguaje.
+Repositorio orientado al estudio y práctica de los **_lenguajes de marcas_**. Incluye archivos y ejemplos relacionados con **HTML, XML, CSS,** y otros lenguajes estructurados utilizados para definir, dar formato o presentar información. 
